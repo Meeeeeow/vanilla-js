@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 class="text-center font-weight-bold" id="somehtml"></h1>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <script>//why use json? to store and transport data easily "self-describing" and easy to understand and for storing data of lightweighted apps
+        //turned JSON syntax to a string 
+            let Cars=`[    
+    {
+        "type" : "toyota",
+        "model" : "Vellfire",
+        "seats" : 5,
+        "doors" : 5 
+    },
+    {
+        "type" : "nissan",
+        "model" : "Corolla",
+        "seats" : 4,
+        "doors" : 4 
+
+    }
+]`
+    //intro hocche string
+       let intro =  `{"employees" :[
+            {
+                "firstname" : "Nazmus",
+                "lastname" : "Sakib",
+                "age" : 23,
+                "location" :"Dhaka"
+            },
+            {
+                "firstname" : "Raihan",
+                "lastname" : "Ahmend",
+                "age" : 23,
+                "location" :"Dhaka",
+                "College" : "NDC"
+            }
+
+
+        ]
+    }`
+            console.log(JSON.parse(Cars)[0]);//convert the string to js objects with parse()
+            console.log(JSON.parse(intro).employees[1].College);//suppose Car hocche object car er onk brand thake sheta hocche employees ekahan r ei brand er onk modeel ache r shb model er e properties alada 
+        </script>
+        
+        <script src="stringexercises.js"></script>
+        
+    </body>
+
+</html>

@@ -1,0 +1,15 @@
+[
+    {
+        "type" : "toyota",
+        "model" : "Vellfire",
+        "seats" : 5,
+        "doors" : 5 
+    },
+    {
+        "type" : "nissan",
+        "model" : "Corolla",
+        "seats" : 4,
+        "doors" : 4 
+
+    }
+]
