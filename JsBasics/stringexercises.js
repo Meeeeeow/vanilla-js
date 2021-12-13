@@ -66,7 +66,7 @@ const isAuthorize = input =>{
         console.log(`${userName[0].substr(0 , avg)}...@${userName[1]}`);
     }
 };
-isAuthorize('kazutokuns467@gmail.com');
+isAuthorize('rrrobinsan@gmail.com');
 
 //7.JavaScript function to capitalize the first letter of a string
 
