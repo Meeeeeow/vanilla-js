@@ -1,10 +1,10 @@
 // //User one description
-// var userOneEmail = 'kazutokun467@gmail.com';
+// var userOneEmail = 'kzutiasuna@gmail.com';
 // var userOneName = 'Kazuto';
 // var userOneFriends = ['Asuna' , 'Yui'];
 
 // //User two description
-// var userTwoEmail = 'tatsumisinon@gmail.com';
+// var userTwoEmail = 'tatsuminron@gmail.com';
 // var userTwoName = 'asuna';
 // var usertwoFriends = ['Kazuto' , 'Yui'];
 
@@ -61,7 +61,7 @@ class User {
         return this;//needed for method chain
     }
 }
-var userOne = new User('kazuto' , 'kazutokun467@gmail.com',23);
+var userOne = new User('kazuto' , 'kazutomihoyo@gmail.com',23);
 var userTwo = new User('Asuna' , 'asuna@gmail.com' , 21);
 console.log(userOne);
 console.log(userTwo);
